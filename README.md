@@ -1,9 +1,9 @@
-# Permutation-based Information Prevalence Inference using the i-th order statistic: i-pinpin
+# Information Prevalence Inference using the i-th order statistic: i-test
 
-This is the MATLAB implementatation of the second-level statistical test for the decoding accuracy proposed by Hirose, 2019 (https://doi.org/10.1101/578930). iPinPin is an extension of "Permutation-based prevalence inference using the minimum statistic", proposed by Allefeld et al., (Carsten Allefeld, Kai Görgen and John-Dylan Haynes, 'Valid population inference for information-based imaging: From the second-level t-test to prevalence inference', NeuroImage 2016, https://doi.org/10.1016/j.neuroimage.2016.07.040. https://github.com/allefeld/prevalence-permutation/).
- i-PinPin provide a way to perform the group-level statistical test for informaiton-like measures, e.g. classification accuracy, Mahalanobis distance, similarity index etc. 
+This is the MATLAB implementatation of the second-level statistical test for the decoding accuracy proposed by Hirose (Under review). i-test is an extension of "Permutation-based prevalence inference using the minimum statistic", proposed by Allefeld et al., (Carsten Allefeld, Kai Görgen and John-Dylan Haynes, 'Valid population inference for information-based imaging: From the second-level t-test to prevalence inference', NeuroImage 2016, https://doi.org/10.1016/j.neuroimage.2016.07.040. https://github.com/allefeld/prevalence-permutation/).
+ i-test provide a way to perform the group-level statistical test for informaiton-like measures, e.g. classification accuracy, Mahalanobis distance, similarity index etc. 
 ******************************************************************************************************************
-ipipi.m (Implementation of iPinPin)
+i-test.m (Implementation of i-test)
     [H, prob, stat] = ipipi(SD,PD,g_0,i,alpha,homogeneity)<br>
     (N: Number of participant, Np: Number of permutatiuon for each participant)
  
