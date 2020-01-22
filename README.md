@@ -7,5 +7,5 @@ Open mother_script.m and copy each lines of codes to command window, in order to
 <b>Demo</b>: A simple GUI app enables us to calculate the i-test and Student t-test results for binary decoding study.<br>
 Type "Demo_Comparison" and a Guide UI application will open. See "how_to_use.pdf" for usage instruction <br>
 
-<u>References</u>
+<b>References</b><br>
 Carsten Allefeld, Kai Görgen and John-Dylan Haynes, 'Valid population inference for information-based imaging: From the second-level t-test to prevalence inference', NeuroImage 2016, https://doi.org/10.1016/j.neuroimage.2016.07.040. https://github.com/allefeld/prevalence-permutation/).
