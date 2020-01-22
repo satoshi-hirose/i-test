@@ -1,7 +1,8 @@
 # Information Prevalence Inference using the i-th order statistic: i-test
+i-test is the MATLAB implementatation of the second-level (group-level) statistical test for the decoding accuracy proposed by Hirose (Under review). i-test is an extension of "Permutation-based prevalence inference using the minimum statistic", proposed by Allefeld et al., (Carsten Allefeld, Kai Görgen and John-Dylan Haynes, 'Valid population inference for information-based imaging: From the second-level t-test to prevalence inference', NeuroImage 2016, https://doi.org/10.1016/j.neuroimage.2016.07.040. https://github.com/allefeld/prevalence-permutation/).
+This repository include three subdirectories.
+# Directory "itest"
 
-This is the MATLAB implementatation of the second-level statistical test for the decoding accuracy proposed by Hirose (Under review). i-test is an extension of "Permutation-based prevalence inference using the minimum statistic", proposed by Allefeld et al., (Carsten Allefeld, Kai Görgen and John-Dylan Haynes, 'Valid population inference for information-based imaging: From the second-level t-test to prevalence inference', NeuroImage 2016, https://doi.org/10.1016/j.neuroimage.2016.07.040. https://github.com/allefeld/prevalence-permutation/).
- i-test provide a way to perform the group-level statistical test for informaiton-like measures, e.g. classification accuracy, Mahalanobis distance, similarity index etc. 
 ******************************************************************************************************************
 i-test.m (Implementation of i-test)
     [H, prob, stat] = ipipi(SD,PD,g_0,i,alpha,homogeneity)<br>
