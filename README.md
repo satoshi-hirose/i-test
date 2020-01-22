@@ -1,5 +1,5 @@
 # Information Prevalence Inference using the i-th order statistic: i-test
-i-test is the MATLAB implementatation of the second-level (group-level) statistical test for the decoding accuracy proposed by Hirose (Under review). i-test is an extension of "Permutation-based prevalence inference using the minimum statistic", proposed by Allefeld et al., 2016<br>
+i-test is the MATLAB implementatation of the second-level (group-level) statistical test for the decoding accuracy proposed by Hirose (Under review), which is an extension of "Permutation-based prevalence inference using the minimum statistic", proposed by Allefeld et al., 2016<br>
 This repository include three subdirectories.<br>
 <b>itest</b>: includes four MATLAB function files for the i-test. For detail, see readme.pdf<br>
 <b> Replication_of_study</b>: The MATLAB codes for the replication of the study Hirose 2020 (Under Review). Add the itest directory to your MATLAB path beforehand.<br>
