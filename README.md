@@ -4,7 +4,7 @@ This repository include three subdirectories.<br>
 <b>itest</b>: includes four MATLAB function files for the i-test. For detail, see readme.pdf<br>
 <b> Replication_of_study</b>: The MATLAB codes for the replication of the study Hirose 2020 (Under Review). Add the itest directory to your MATLAB path beforehand.<br>
 Open mother_script.m and copy each lines of codes to command window, in order to replicate the results in Hirose 2020.<br>
-<b>Demo</b>: A simple GUI app enables us to calculate the i-test and Student t-test results for binary decoding study.<br>
+<b>Demo</b>: A simple GUI app to compare i-test and Student t-test results for binary decoding study.<br>
 Type "Demo_Comparison" and a Guide UI application will open. See "how_to_use.pdf" for usage instruction <br>
 
 <b>References</b><br>
