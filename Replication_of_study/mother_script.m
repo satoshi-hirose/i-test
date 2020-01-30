@@ -24,6 +24,9 @@ benchmark_test
 clear all
 find_T
 
+% Appendix Figure A1
+clear all
+i_effect
 
 % values in the Appendix B text
 clear all
