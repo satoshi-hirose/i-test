@@ -10,7 +10,7 @@ This repository include six subdirectories.<br>
 <br>
 <b>Accessory tools</b><br>
 &ensp;<b>GUI</b>: Simple GUI apps.<br>
-&ensp;<b>woid</b>: i-test without identical distribution among participants (Under Construction).<br>
+&ensp;<b>woid</b>: i-test without identical distribution among participants (Under Development).<br>
 <br>
 <b>References</b><br>
 Carsten Allefeld, Kai Görgen and John-Dylan Haynes, Valid population inference for information-based imaging: From the second-level t-test to prevalence inference, NeuroImage 2016, https://doi.org/10.1016/j.neuroimage.2016.07.040. https://github.com/allefeld/prevalence-permutation/).
