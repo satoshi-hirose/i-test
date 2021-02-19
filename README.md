@@ -1,11 +1,17 @@
 # Information Prevalence Inference using the i-th order statistic: i-test
-i-test is the MATLAB implementatation of the second-level (group-level) statistical test for the decoding accuracy proposed by Hirose (Under review), which is an extension of "Permutation-based prevalence inference using the minimum statistic", proposed by Allefeld et al., 2016<br>
-This repository include three subdirectories.<br>
-<b>itest</b>: includes four MATLAB function files for the i-test. For detail, see readme.pdf<br>
-<b> Replication_of_study</b>: The MATLAB codes for the replication of the study Hirose 2020 (Under Review). Add the itest directory to your MATLAB path beforehand.<br>
-Open mother_script.m and copy each lines of codes to command window, in order to replicate the results in Hirose 2020.<br>
-<b>Demo</b>: A simple GUI app to compare i-test and Student t-test results for binary decoding study.<br>
-Type "Demo_Comparison" and a Guide UI application will open. See "how_to_use.pdf" for usage instruction <br>
+i-test is the MATLAB implementatation of the second-level (group-level) statistical test for the decoding accuracy proposed by Hirose (https://www.biorxiv.org/content/10.1101/578930v2), which is an extension of "Permutation-based prevalence inference using the minimum statistic", proposed by Allefeld et al., 2016<br>
+This repository include six subdirectories.<br>
+<b>i-test toolbox</b><br>
+&ensp;<b>itest</b>: includes MATLAB functions for the i-test.<br>
+&ensp;<b>implementation</b>: Implementation-level functions<br>
+&ensp;<b>subfunction</b>: simple subfunctions for input parser<br>
+<br>
+<b> Replication_of_study</b>: The MATLAB codes for the replication of the study Hirose 2021.
+<br>
+<b>Accessory tools</b><br>
+&ensp;<b>GUI</b>: Simple GUI apps.<br>
+&ensp;<b>woid</b>: i-test without identical distribution among participants (Under Construction).<br>
 
 <b>References</b><br>
-Carsten Allefeld, Kai Görgen and John-Dylan Haynes, 'Valid population inference for information-based imaging: From the second-level t-test to prevalence inference', NeuroImage 2016, https://doi.org/10.1016/j.neuroimage.2016.07.040. https://github.com/allefeld/prevalence-permutation/).
+Carsten Allefeld, Kai Görgen and John-Dylan Haynes, Valid population inference for information-based imaging: From the second-level t-test to prevalence inference, NeuroImage 2016, https://doi.org/10.1016/j.neuroimage.2016.07.040. https://github.com/allefeld/prevalence-permutation/).
+Hirose, Valid and powerful group statistics for decoding accuracy: Information Prevalence Inference using the i-th order statistic (i-test), https://www.biorxiv.org/content/10.1101/578930v2
