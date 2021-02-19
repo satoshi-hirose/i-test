@@ -6,7 +6,7 @@ This repository include six subdirectories.<br>
 &ensp;<b>implementation</b>: Implementation-level functions<br>
 &ensp;<b>subfunction</b>: simple subfunctions for input parser<br>
 <br>
-<b> Replication_of_study</b>: The MATLAB codes for the replication of the study Hirose 2021.
+<b> Replication_of_study</b>: The MATLAB codes for the replication of the study Hirose 2021.<br>
 <br>
 <b>Accessory tools</b><br>
 &ensp;<b>GUI</b>: Simple GUI apps.<br>
