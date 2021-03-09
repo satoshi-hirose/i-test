@@ -73,11 +73,11 @@ if ~exist('skip_preparation','var') || ~skip_preparation
     if ~((isvector(i) && all(arrayfun(@isposint,i))) || strcmp(i,'all')); error('i should be vector of positive integer or ''all'''); end
     if ~(isvector(gamma) && all(arrayfun(@isprob,gamma))); error('gamma should be vector of probability'); end
     if ~isp(pp_true); error('pp_true should satisfy specified format. type ''help isp'''); end
-    if ~isp(pm_true) && size(pm_true,1)==2; error('pm_true should satisfy specified format. type ''help isp'''); end
+    if ~isp(pm_true,1); error('pm_true should satisfy specified format. type ''help isp'''); end
     if ~isposint(N_sim); error('N_sim should be positive integer'); end
     
     if ~exist('pm_est','var'); pm_est = pm_true;
-    else; ~isp(pm_est) && size(pm_est,1)==2; error('pm_est should satisfy specified format. type ''help isp'''); end
+    else; ~isp(pm_est,1); error('pm_est should satisfy specified format. type ''help isp'''); end
 end
 
 % find largest i & define i if 'all'
