@@ -4,8 +4,8 @@
 % without minor process such as error handling.
 % This may help the understanding of computational process of itest.
 
-load Results/Empirical_Experiment_Results SD
-N_trial = 150;
+SD= [0.52, 0.65, 0.73, 0.74, 0.75, 0.7, 0.8, 0.9];
+N_trial = 100;
 g_0 = 0.5;
 alpha = 0.05;
 Pcm = 0.5;
