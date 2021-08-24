@@ -13,5 +13,6 @@ This repository include six subdirectories.<br>
 &ensp;<b>woid</b>: i-test without identical distribution among participants (Under Development).<br>
 <br>
 <b>References</b><br>
+Hirose, Valid and powerful group statistics for decoding accuracy: Information Prevalence Inference using the i-th order statistic (i-test), https://doi.org/10.1016/j.neuroimage.2021.118456<br>
+
 Carsten Allefeld, Kai Görgen and John-Dylan Haynes, Valid population inference for information-based imaging: From the second-level t-test to prevalence inference, NeuroImage 2016, https://doi.org/10.1016/j.neuroimage.2016.07.040. https://github.com/allefeld/prevalence-permutation/).
-Hirose, Valid and powerful group statistics for decoding accuracy: Information Prevalence Inference using the i-th order statistic (i-test), https://www.biorxiv.org/content/10.1101/578930v2
